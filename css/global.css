@@ -1,0 +1,208 @@
+html {
+  height: 100%;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+/* header {
+
+} */
+
+#root {
+  font-family: sans-serif;
+  /* background-color: black; */
+  max-width: 1440px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 0 auto;
+}
+
+.navbar {
+  box-sizing: border-box;
+}
+
+.upper-header {
+  background-color: rgb(243, 243, 243);
+  padding: 0 95px;
+  height: 40px;
+  font-size: 1rem;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+@media (max-width: 991px) {
+  .upper-header {
+    display: none;
+  }
+}
+
+.lower-header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.media-padding{
+  padding: 0 95px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .media-padding {
+    padding: 0 45px;
+  }
+}
+
+@media (max-width: 991px) {
+  .lower-header {
+    height: 70px;
+    padding: 0 30px;
+  }
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+  height: 31px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.eyebrow-item:hover {
+  color: rgb(58, 110, 171);
+}
+
+.eyebrow-item:hover path {
+  fill: rgb(58, 110, 171);
+}
+
+.eyebrow-item-container:not(:first-child) {
+  padding-left: 10px;
+}
+
+.eyebrow-item-container:not(:first-child) > a::before {
+  content: "";
+  width: 1px;
+  height: 20px;
+  margin-right: 3px;
+  margin-left: 3px;
+  background-color: #d6d5d5;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  align-self: center;
+}
+
+.eyebrow-item {
+  text-decoration: none;
+  min-height: 34px;
+  line-height: 32px;
+  color: #102b4e;
+  display: flex;
+  align-items: center;
+}
+
+.eyebrow-item-text {
+  margin-left: 10px;
+}
+
+.bronco-icon {
+  margin-left: 10px;
+}
+
+.right-upper-header .eyebrow-item-text {
+  color: rgb(58, 110, 171);
+}
+
+.left-upper-header {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+}
+
+.right-upper-header {
+  display: flex;
+  /* background-color: pink; */
+}
+
+.everywhere-clickable {
+}
+
+.lower-header__common-menu-button {
+}
+
+.paper-typoghragy {
+  color: white;
+}
+
+.wallpaper {
+  background-color: #f7f7f7;
+}
+
+.whole-area {
+  width: 100%;
+  height: 100%;
+}
+
+.blue-button {
+  margin: 10px 0;
+  background-color: rgb(2, 118, 179);
+  border: 1px solid rgb(2, 118, 179);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  height: 52px;
+  min-height: 50px;
+  width: 270px;
+  text-align: center;
+  user-select: none;
+}
+
+.blue-button:hover{
+  color:#102b4e;
+  border-color:#102b4e;
+  background-color: white;
+}

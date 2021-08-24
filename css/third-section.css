@@ -1,0 +1,52 @@
+.third-section {
+  padding-top: 20px;
+}
+
+.static-feature-wrapper {
+  padding: 25px;
+}
+
+.static-feature-container {
+  padding: 75px 8.33%;
+  margin-bottom: 20px;
+}
+
+.static-feature__video-content {
+  width: 100%;
+}
+
+.static-feature__video-wrap {
+}
+
+.static-feature__paragraph {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.static-feature__text-wrap {
+  padding-top: 10px;
+  margin: 0 1.535% 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 740px;
+}
+
+.static-feature__text{
+
+}
+
+.static-feature__button-container {
+  
+}
+
+.static-feature__join {
+
+}
+

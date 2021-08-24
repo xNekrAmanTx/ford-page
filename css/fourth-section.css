@@ -1,0 +1,39 @@
+.offers {
+  background-image: url(../assets/pictures/pic-under-the-offer.webp);
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+}
+
+@media (max-width: 1440px) {
+  .offers {
+    height: calc(100vw / 6);
+  }
+}
+
+.offers-title-container {
+  top: 40px;
+  bottom: 40px;
+}
+
+.offers-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.offers-link-container {
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.offers-link-text {
+  text-align: center;
+}
+
+.offers-link-text::after {
+  content: "\e00f";
+}

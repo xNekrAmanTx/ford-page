@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Ford Antenna";
+  src: local("Ford Antenna Cond Regular"), local("Ford-Antenna-Cond-Regular"),
+    url("FordAntennaCond-Regular.woff2") format("woff2"),
+    url("FordAntennaCond-Regular.woff") format("woff"),
+    url("FordAntennaCond-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ford Antenna";
+  src: local("Ford Antenna Light"), local("Ford-Antenna-Light"),
+    url("FordAntenna-Light.woff2") format("woff2"),
+    url("FordAntenna-Light.woff") format("woff"),
+    url("FordAntenna-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ford Antenna";
+  src: local("Ford Antenna Cond Medium"), local("Ford-Antenna-Cond-Medium"),
+    url("FordAntennaCond-Medium.woff2") format("woff2"),
+    url("FordAntennaCond-Medium.woff") format("woff"),
+    url("FordAntennaCond-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}

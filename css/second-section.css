@@ -1,0 +1,67 @@
+/* .second-section__header {
+  
+} */
+.second-section-content {
+  width: 100%;
+  min-height: 100px;
+}
+
+.card-list {
+  justify-content: center;
+  user-select: none;
+}
+
+.card-list-item {
+  min-height: 390px;
+  width: 42%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  margin: 0 auto;
+  width: 330px;
+  cursor: pointer;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__car-name {
+  color: rgb(10, 122, 181);
+  cursor: pointer;
+}
+
+.card__car-price-container {
+  text-align: center;
+  font-size: .95rem;
+  color: rgb(74,74,74);
+}
+
+
+.card__link-container {
+  color: rgb(10, 122, 181);
+  font-size: 1.2rem;
+}
+
+/* .card-list-item:first-child {
+  margin-right: 12px;
+}
+
+.card-list-item:last-child {
+  margin-left: 12px;
+} */
+
+.card__link-container:hover {
+  color: black;
+  cursor: pointer;
+}
